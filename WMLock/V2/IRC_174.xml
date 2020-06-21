@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<WMLockGUIConfig>
+	<name>IRC 174</name>
+	<windowGeometry height="169" width="590" x="222" y="235"/>
+	<lockChannel>
+		<name>399nm</name>
+		<DAC alias="IRC_DAC" channel="12"/>
+		<WLM alias="IC_WLM" channel="7"/>
+		<gain>0.5</gain>
+		<voltage>7.0</voltage>
+		<setpoint>751.52657</setpoint>
+	</lockChannel>
+</WMLockGUIConfig>

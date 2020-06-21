@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<WMLockGUIConfig>
+	<name>testLock</name>
+	<windowGeometry height="138" width="590" x="253" y="435"/>
+	<lockChannel>
+		<name>875nm</name>
+		<DAC alias="IRC_DAC" channel="8"/>
+		<WLM alias="IC_WLM" channel="8"/>
+		<gain>1.0</gain>
+		<voltage>-2.83194472211</voltage>
+		<setpoint>342.484</setpoint>
+	</lockChannel>
+	<lockChannel>
+		<name>370nm</name>
+		<DAC alias="UVC_DAC" channel="6"/>
+		<WLM alias="IC_WLM" channel="4"/>
+		<gain>-0.1</gain>
+		<voltage>5.59169444018</voltage>
+		<setpoint>811.2915</setpoint>
+	</lockChannel>
+</WMLockGUIConfig>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<WMLockGUIConfig>
+	<name>UVC 174</name>
+	<windowGeometry height="169" width="590" x="-1264" y="281"/>
+	<lockChannel>
+		<name>399nm</name>
+		<DAC alias="UVC_DAC" channel="1"/>
+		<WLM alias="IC_WLM" channel="1"/>
+		<gain>0.5</gain>
+		<voltage>-3.69675397923</voltage>
+		<setpoint>751.52731</setpoint>
+	</lockChannel>
+	<lockChannel>
+		<name>370nm</name>
+		<DAC alias="UVC_DAC" channel="10"/>
+		<WLM alias="IC_WLM" channel="4"/>
+		<gain>-0.11</gain>
+		<voltage>0.0</voltage>
+		<setpoint>811.3035</setpoint>
+	</lockChannel>
+</WMLockGUIConfig>
